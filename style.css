@@ -36,3 +36,39 @@ body{
     display:flex;
     gap:30px;
 }
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+}
+.hero .content h1{
+    color: white;
+    font-size: 55px;
+    line-height:60px;
+    margin-bottom:40px;
+    
+}
+button{
+    color:white;
+    background-color:#00ADB5;
+    padding:6px 14px 6px 14px;
+    border:none;
+    cursor: pointer;
+    border-radius:4px;
+    font-weight:700px;
+    
+}
+button{
+    
+    gap:15px;
+}
+.designer{
+    color:#00ADB5;
+    
+}
+.hero .image img{
+    width:400px;
+    height:400px;
+    border-radius: 100%;
+}
